@@ -1,7 +1,6 @@
-apply plugin: 'com.android.application'
-
 android {
     compileSdkVersion 30
+    namespace "com.koushik.volumepanel"
 
     defaultConfig {
         applicationId "com.koushik.volumepanel"
@@ -16,7 +15,4 @@ android {
             minifyEnabled false
         }
     }
-}
-
-dependencies {
 }
