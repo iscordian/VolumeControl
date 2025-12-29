@@ -6,10 +6,10 @@
     <application
         android:allowBackup="false"
         android:label="Volume Panel"
-        android:icon="@android:drawable/ic_lock_silent_mode"
+        android:icon="@android:drawable/ic_lock_silent_mode">
 
-
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
@@ -34,4 +34,5 @@
         </receiver>
 
     </application>
+
 </manifest>
