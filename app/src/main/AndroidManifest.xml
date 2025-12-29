@@ -6,7 +6,8 @@
     <application
         android:allowBackup="false"
         android:label="Volume Panel"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@android:drawable/ic_lock_silent_mode"
+
 
         <activity android:name=".MainActivity">
             <intent-filter>
